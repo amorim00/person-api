@@ -8,10 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class PersonApiApplication {
 
     public static void main(String[] args) {
-
         SpringApplication.run(PersonApiApplication.class, args);
-        PersonController personController = new PersonController();
-        personController.getBook();
     }
 
 }
